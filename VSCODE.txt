@@ -1,0 +1,73 @@
+// 将键绑定放入此文件中以覆盖默认值
+[
+    {
+        "key": "ctrl+i",
+        "command": "cursorUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "up",
+        "command": "cursorUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "cursorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "down",
+        "command": "cursorDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+j",
+        "command": "cursorLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "cursorRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "home",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "end",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+m",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },
+    { 
+        "key": "ctrl+left",             
+        "command": "cursorWordStartLeft",
+        "when": "editorTextFocus" 
+    },
+    { 
+        "key": "ctrl+o",             
+        "command": "cursorWordStartLeft",
+        "when": "editorTextFocus" 
+    },
+    { 
+        "key": "ctrl+left",             
+        "command": "cursorWordStartLeft",
+        "when": "editorTextFocus" 
+    },
+    { 
+        "key": "ctrl+u",             
+        "command": "cursorWordStartRight",
+        "when": "editorTextFocus" 
+    }
+]
